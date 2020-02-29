@@ -1,0 +1,43 @@
+@mixin smob {
+  @media screen and (max-width: 374.98px) {
+    @content;
+  }
+}
+
+@mixin pad {
+  @media screen and (min-width: 768px) and (max-width: 1024.98px) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin clean-tap {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: #ffffff00;
+}
+
+@mixin clean-btn {
+  outline: none;
+  border: none;
+  background-color: initial;
+  cursor: pointer;
+  @include clean-tap;
+}
+
+@mixin layout-margin {
+  margin: 24px 0;
+  @media screen and (min-width: 1025px) {
+    margin: 48px 0;
+  }
+}
+@mixin layout-padding {
+  padding: 24px 0;
+  @media screen and (min-width: 1025px) {
+    padding: 48px 0;
+  }
+}

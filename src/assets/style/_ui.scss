@@ -1,0 +1,34 @@
+.share-button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: .333s ease-in-out;
+  &:hover {
+    transform: rotate(20deg);
+  }
+  a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
+  button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    @include clean-btn;
+  }
+}
+
+.icon-theme-light {
+  color: #000000;
+}
+.icon-theme-dark {
+  color: #ffffff;
+}
