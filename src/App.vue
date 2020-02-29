@@ -8,7 +8,7 @@
       <FooterEditor>
         <div>
           <p>製作人</p>
-          <p>蔡佩蓉</p>
+          <p>林秀姿、蔡佩蓉</p>
         </div>
         <div>
           <p>視覺設計</p>

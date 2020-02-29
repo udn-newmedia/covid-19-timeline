@@ -2,7 +2,6 @@
   <div v-if="dataStatus" id="timeline" class="timeline">
     <ArticleContainer v-show="$store.state.dataType === 'restriction'">
       <p>新冠肺炎（COVID-19）讓全世界陷入恐慌，《聯合報》透過圖表還原台灣防疫關鍵措施。</p>
-
       <p><span style="color:#0349f0">關鍵一：</span>在病毒感染未明朗之際，台灣政府實施「料敵從嚴」策略，早於日韓等亞洲國家針對 中國大陸實施多次邊境管制，防堵感染者境外移入的可能性。<br><span style="color:#0349f0">關鍵二：</span>WHO尚未宣布新冠病毒人傳人之前，台灣謹慎將新冠病毒先列為法定傳染病，得以啟動一系列傳染病防範措施。<br><span style="color:#0349f0">關鍵三：</span>擺脫科層體制束縛，速度極快地動員跨部門串聯個資撈出接觸者進行檢驗，防制感染在境內擴散。</p>
     </ArticleContainer>
     <ArticleContainer v-show="$store.state.dataType === 'mask'">
@@ -108,9 +107,10 @@ export default {
         const top = document.getElementById('timeline-anchor').getBoundingClientRect().top;
         const bottom = document.getElementById('timeline').getBoundingClientRect().bottom;
         window.requestAnimationFrame(() => {
+          // handle timeline meta fixed
           if (top <= 0 && bottom > 0) this.metaFixedFlag = true;
           else this.metaFixedFlag = false;
-        
+
           this.ticking = false;
         });
       }

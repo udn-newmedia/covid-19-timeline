@@ -15,7 +15,7 @@
           'page-cover__timeline-controller__button': true,
           'page-cover__timeline-controller__button--restriction': $store.state.dataType === 'restriction',
         }"
-        @click="$store.dispatch('changeDataType')"
+        @click="handleControllerClick('restriction')"
       >
         邊境管制
       </div>
@@ -24,7 +24,7 @@
           'page-cover__timeline-controller__button': true,
           'page-cover__timeline-controller__button--mask': $store.state.dataType === 'mask',
         }"
-        @click="$store.dispatch('changeDataType')"
+        @click="handleControllerClick('mask')"
       >
         口罩措施
       </div>
@@ -69,6 +69,13 @@ export default {
       }
       this.ticking = true;
     }, 30, {'leading': true, 'trailing': false, 'maxWait': 30}),
+    handleControllerClick(payload) {
+      if (this.$store.state.dataType !== payload) {
+        vueScrollTo.scrollTo('#enter-anchor');
+        // this.sendGA(this.formatGA(payload));
+      }
+      this.$store.dispatch('changeDataType', payload);
+    }
   },
   mounted() {
     document.addEventListener('scroll', this.handleControllerFixed, true);

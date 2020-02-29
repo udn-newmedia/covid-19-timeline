@@ -7,6 +7,8 @@
       v-for="(item, index) in dataIndexList" :key="index"
       :date="item"
       :data="yearData[item]"
+      :dataType="dataType"
+      :dataYear="year"
     />
     <div class="timeline-year__bottom-mask" />
   </div>
@@ -29,20 +31,54 @@ export default {
       type: Object,
       required: true,
     },
+    dataType: {
+      type: String,
+      required: true,
+    }
   },
   computed: {
     dataIndexList() {
       return Object.keys(this.yearData);
     },
   },
+  methods: {
+    handleCardScroll() {
+      this.dataIndexList.forEach(e => {
+        const position = document.getElementById('timeline-decision-card-' + this.dataType + '-' + this.year +'-' + e).getBoundingClientRect();
+        // console.log(position);
+        if (position.top <= window.innerHeight * 0.75 && position.bottom > 0) {
+          this.$store.dispatch('updateDataActive', {
+            year: this.year,
+            date: e,
+            dataType: this.dataType,
+            status: true
+          });
+        }
+        // else {
+        //   this.$store.dispatch('updateDataActive', {
+        //     year: this.year,
+        //     date: e,
+        //     dataType: this.dataType,
+        //     status: false
+        //   });
+        // }
+      });
+    },
+  },
+  mounted() {
+    document.addEventListener('scroll', this.handleCardScroll, true);
+  },
+  destroyed() {
+    document.removeEventListener('scroll', this.handleCardScroll, true);
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 @import '~/style/_mixins.scss';
-
 .timeline-year {
   position: relative;
+  overflow: hidden;
   width: 100%;
 }
 .timeline-year__year-title {
@@ -58,7 +94,10 @@ export default {
   left: 0;
   bottom: -20px;
   width: 100%;
-  height: 20px;
+  height: 80px;
   background-color: #ffffff;
+  @include pc {
+    bottom: -15px;
+  }
 }
 </style>

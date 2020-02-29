@@ -21,10 +21,11 @@
         },
         {
           "text": "中國大陸向WHO通報武漢出現27例原因不明肺炎",
-          "image": "pic",
+          "image": true,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     }
   },
   "2020": {
@@ -32,11 +33,12 @@
       "world": null,
       "tw": [
         {
-          "text": "疾管署向中國大陸疾控中心及WHO窗口確認新冠肺炎疫情，陸方回應武漢市發現27例肺炎病例、7例重症均隔離治療，但尚未發現明顯人傳人現象。",
+          "text": "疾管署召開中國大陸武漢不明肺炎應變會議，盤點疫情監測、檢疫措施、感染控制、醫療整備、檢驗量能等預作整備。",
           "image": null,
           "level": 2
         }
-      ]
+      ],
+      "active": false
     },
     "1/5": {
       "world": null,
@@ -46,7 +48,8 @@
           "image": null,
           "level": 2
         }
-      ]
+      ],
+      "active": false
     },
     "1/6": {
       "world": null,
@@ -56,13 +59,14 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "1/7": {
       "world": [
         {
           "text": "WHO宣布發現新病毒，命名為2019新型冠狀病毒",
-          "image": "pic",
+          "image": true,
           "level": 3
         }
       ],
@@ -72,7 +76,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "1/9": {
       "world": [
@@ -82,12 +87,13 @@
           "level": 1
         }
       ],
-      "tw": null
+      "tw": null,
+      "active": false
     },
     "1/15": {
       "world": [
         {
-          "text": "泰國出現中國大陸移入新冠病毒感染個案，為武漢地區外境外移入首例。",
+          "text": "泰國出現中國大陸移入新冠病毒感染個案，為武漢地區外境外移入首例",
           "image": null,
           "level": 1
         },
@@ -101,9 +107,10 @@
         {
           "text": "台灣疾管署認為不排除人傳人，將「嚴重特殊傳染性肺炎」列為法定傳染病",
           "image": null,
-          "level": 1
+          "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "1/16": {
       "world": [
@@ -113,7 +120,8 @@
           "level": 1
         }
       ],
-      "tw": null
+      "tw": null,
+      "active": false
     },
     "1/17": {
       "world": [
@@ -123,7 +131,8 @@
           "level": 3
         }
       ],
-      "tw": null
+      "tw": null,
+      "active": false
     },
     "1/20": {
       "world": [
@@ -144,12 +153,13 @@
           "image": null,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "1/21": {
       "world": [
         {
-          "text": "「中央流行疫情指揮中心」疾管署三級開設",
+          "text": "美國出現新冠病毒感染首例",
           "image": null,
           "level": 1
         }
@@ -160,20 +170,21 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "1/23": {
       "world": [
         {
-          "text": "1.23 中國大陸宣布武漢封城",
-          "image": "pic",
+          "text": "中國大陸宣布武漢封城",
+          "image": true,
           "level": 3
         }
       ],
       "tw": [
         {
           "text": "「中央疫情指揮中心」提升至二級開設，衛福部長陳時中擔任指揮官",
-          "image": "pic",
+          "image": true,
           "level": 3
         },
         {
@@ -181,7 +192,8 @@
           "image": null,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "1/24": {
       "world": [
@@ -207,12 +219,13 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "1/25": {
       "world": [
         {
-          "text": "中港澳旅客入境需填「入境健康聲明卡」",
+          "text": "澳洲出現新冠病毒感染首例",
           "image": null,
           "level": 1
         }
@@ -224,7 +237,7 @@
           "level": 1
         },
         {
-          "text": "中國大陸期他各省市旅遊疫情升至第二級警示(Alert)，民眾至當地應加強防疫措施",
+          "text": "中國大陸其他各省市旅遊疫情升至第二級警示(Alert)，民眾至當地應加強防疫措施",
           "image": null,
           "level": 1
         },
@@ -233,7 +246,8 @@
           "image": null,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "1/26": {
       "world": null,
@@ -254,11 +268,12 @@
           "level": 3
         },
         {
-          "text": "2/9前陸生暫緩來台",
-          "image": "pic",
+          "text": "全面暫緩陸人以小三通至金馬澎離島",
+          "image": true,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "1/27": {
       "world": null,
@@ -273,7 +288,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "1/28": {
       "world": [
@@ -294,7 +310,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "1/30": {
       "world": [
@@ -315,13 +332,14 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "1/31": {
       "world": [
         {
           "text": "WHO宣布新冠病毒疫情為國際公共衛生緊急事件",
-          "image": "pic",
+          "image": true,
           "level": 3
         },
         {
@@ -336,7 +354,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/2": {
       "world": null,
@@ -346,7 +365,8 @@
           "image": null,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "2/3": {
       "world": [
@@ -367,7 +387,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/4": {
       "world": null,
@@ -382,7 +403,8 @@
           "image": null,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "2/5": {
       "world": [
@@ -403,7 +425,8 @@
           "image": null,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "2/6": {
       "world": [
@@ -426,7 +449,7 @@
         },
         {
           "text": "國際郵輪禁止停靠我國港口",
-          "image": "pic",
+          "image": true,
           "level": 3
         },
         {
@@ -444,7 +467,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/7": {
       "world": [
@@ -465,7 +489,8 @@
           "image": null,
           "level": 3
         }
-      ]
+      ],
+      "active": false
     },
     "2/8": {
       "world": [
@@ -496,7 +521,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/9": {
       "world": null,
@@ -506,13 +532,14 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/10": {
       "world": [
         {
           "text": "中國大陸四大直轄市北京、上海等實施社區封閉管理",
-          "image": null,
+          "image": true,
           "level": 3
         }
       ],
@@ -524,7 +551,7 @@
         },
         {
           "text": "限縮台灣直航中港澳航線，只留北京首都、上海浦東、上海虹橋、廈門高崎、成都雙流機場等5航線。",
-          "image": "pic",
+          "image": true,
           "level": 3
         },
         {
@@ -532,7 +559,8 @@
           "image": null,
           "level": 2
         }
-      ]
+      ],
+      "active": false
     },
     "2/11": {
       "world": null,
@@ -557,7 +585,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/12": {
       "world": [
@@ -567,7 +596,8 @@
           "level": 1
         }
       ],
-      "tw": null
+      "tw": null,
+      "active": false
     },
     "2/13": {
       "world": null,
@@ -577,7 +607,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/15": {
       "world": null,
@@ -592,7 +623,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/16": {
       "world": null,
@@ -607,7 +639,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/17": {
       "world": null,
@@ -617,7 +650,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/18": {
       "world": [
@@ -632,7 +666,8 @@
           "level": 3
         }
       ],
-      "tw": null
+      "tw": null,
+      "active": false
     },
     "2/19": {
       "world": [
@@ -653,7 +688,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/20": {
       "world": [
@@ -663,7 +699,8 @@
           "level": 3
         }
       ],
-      "tw": null
+      "tw": null,
+      "active": false
     },
     "2/22": {
       "world": [
@@ -684,7 +721,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/23": {
       "world": [
@@ -705,7 +743,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/24": {
       "world": null,
@@ -720,7 +759,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/25": {
       "world": null,
@@ -735,7 +775,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     },
     "2/26": {
       "world": null,
@@ -745,7 +786,8 @@
           "image": null,
           "level": 1
         }
-      ]
+      ],
+      "active": false
     }
   }
 }

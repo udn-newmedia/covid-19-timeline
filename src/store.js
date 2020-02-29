@@ -29,11 +29,22 @@ export default new Vuex.Store({
         if (res.request.readyState && res.status === 200) {
           state.maskData = JSON.parse(JSON.stringify(res.data));
         }
-      });
+      })
     },
-    changeDataType (state) {
-      if (state.dataType === 'restriction') state.dataType = 'mask';
-      else state.dataType = 'restriction';
+    changeDataType (state, payload) {
+      state.dataType = payload;
+    },
+    updateDataActive (state, payload) {
+      // year: ...,
+      // date: ...,
+      // dataType: ...,
+      // status: ...
+      if (payload.dataType === 'restriction') {
+        state.restrictionData[payload.year][payload.date].active = payload.status;
+      }
+      if (payload.dataType === 'mask') {
+        state.maskData[payload.year][payload.date].active = payload.status;
+      }
     },
   },
   actions: {
@@ -43,8 +54,11 @@ export default new Vuex.Store({
     getMaskData (context) {
       context.commit('getMaskData');
     },
-    changeDataType (context) {
-      context.commit('changeDataType');
+    changeDataType (context, payload) {
+      context.commit('changeDataType', payload);
     },
+    updateDataActive(context, payload) {
+      context.commit('updateDataActive', payload);
+    }
   }
 })
