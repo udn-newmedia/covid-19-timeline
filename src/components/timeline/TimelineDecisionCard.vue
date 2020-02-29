@@ -149,7 +149,7 @@ export default {
     margin: 0 auto;
     background-color: #000000;
     opacity: 0.75;
-    transition: .75s ease-in-out;
+    transition: 1s ease-in-out;
     &.timeline-decision-card__pin__conection--active {
       height: calc(100% + 10px);
     }
@@ -198,8 +198,8 @@ export default {
     margin-right: auto;
     margin-left: -10px;
     transform-origin: 0 0;
-    transform: rotate3d(0.1, 0.5, 0, 90deg);
-    transition: .5s ease-in-out;
+    transform: rotate3d(0.1, 1, 0, 20deg);
+    transition: .75s ease-in-out;
     border: solid 1px #707070;
     @include pc {
       margin-left: 0px;
@@ -216,8 +216,8 @@ export default {
     margin-left: auto;
     margin-right: -10px;
     transform-origin: 100% 0;
-    transform: rotate3d(0.1, -0.5, 0, 90deg);
-    transition: .5s .333s ease-in-out;
+    transform: rotate3d(0.1, -1, 0, 20deg);
+    transition: .75s .333s ease-in-out;
     @include pc {
       margin-right: 0px;
       transform-origin: 0 0;
