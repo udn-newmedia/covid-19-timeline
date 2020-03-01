@@ -7,7 +7,8 @@
       :class="{
         'article': true,
         'page-cover__timeline-controller': true,
-        'page-cover__timeline-controller--fixed': timelineControllerActive,
+        'page-cover__timeline-controller--fixed': controllerFixed,
+        'page-cover__timeline-controller--shrink': controllerShrink,
       }"
     >
       <div
@@ -48,7 +49,8 @@ export default {
   data() {
     return {
       ticking: false,
-      timelineControllerActive: false,
+      controllerFixed: false,
+      controllerShrink: false,
     }
   },
   methods: {
@@ -60,10 +62,17 @@ export default {
       if (!this.ticking) {
         const top = window.pageYOffset;
         const bottom = document.getElementById('timeline').getBoundingClientRect().bottom;
+        const anchorTop = document.getElementById('timeline-anchor').getBoundingClientRect().top;
+
         window.requestAnimationFrame(() => {
-          if (top >= window.innerHeight - 150 && bottom > 0) this.timelineControllerActive = true;
-          else this.timelineControllerActive = false;
-        
+          // fixed
+          if (top >= window.innerHeight - 150 && bottom > 0) this.controllerFixed = true;
+          else this.controllerFixed = false;
+
+          // shrink
+          if (anchorTop <= 100 && bottom > 0) this.controllerShrink = true;
+          else this.controllerShrink = false;
+
           this.ticking = false;
         });
       }
@@ -120,10 +129,9 @@ export default {
   &.page-cover__timeline-controller--fixed {
     position: fixed;
     top: 0px;
+  }
+  &.page-cover__timeline-controller--shrink {
     width: 65%;
-    @include pad {
-
-    }
     @include pc {
       width: 480px;
       transform: translateX(-360px);

@@ -8,27 +8,29 @@
       <p>新冠肺炎引發民眾爭搶口罩，台灣政府陸續祭出「禁止出口」、「強制徵用」、「販售實名制」等措施，聯合報整理關鍵時間點，對照疫情發展與政府口罩決策脈絡。</p>
     </ArticleContainer>
     <div id="timeline-anchor" />
-    <div :class="{
-        'timeline-meta': true,
-        'timeline-meta--fixed': metaFixedFlag,
-      }"
-    >
-      <div
-        :class="{
-          'timeline-meta__item': true,
-          'timeline-meta__item--left': true,
+    <div class="timeline-mata-container">
+      <div :class="{
+          'timeline-meta': true,
+          'timeline-meta--fixed': metaFixedFlag,
         }"
       >
-        {{timelineMeta.left}}
-      </div>
-      <div
-        :class="{
-          'timeline-meta__item': true,
-          'timeline-meta__item--restriction-right': $store.state.dataType === 'restriction',
-          'timeline-meta__item--mask-right': $store.state.dataType === 'mask',
-        }"
-      >
-        {{timelineMeta.right}}
+        <div
+          :class="{
+            'timeline-meta__item': true,
+            'timeline-meta__item--left': true,
+          }"
+        >
+          {{timelineMeta.left}}
+        </div>
+        <div
+          :class="{
+            'timeline-meta__item': true,
+            'timeline-meta__item--restriction-right': $store.state.dataType === 'restriction',
+            'timeline-meta__item--mask-right': $store.state.dataType === 'mask',
+          }"
+        >
+          {{timelineMeta.right}}
+        </div>
       </div>
     </div>
 
@@ -137,8 +139,15 @@ export default {
     margin: 0 auto 100px auto;
   }
 }
-.timeline-meta {
+.timeline-mata-container {
   position: relative;
+  width: 100%;
+  height: 50px;
+}
+.timeline-meta {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 100%;
   height: 50px;
   display: flex;
@@ -146,18 +155,18 @@ export default {
   align-items: center;
   margin: 0 auto;
   background-color: #ffffff;
-  transition: width .333s ease-in-out;
+  transition: .333s ease-in-out;
   @include pad {
     max-width: 576px;
   }
   @include pc {
     max-width: 720px;
+    right: 50%;
+    transform: translateX(50%);
   }
   &.timeline-meta--fixed {
     position: fixed;
     z-index: 5000;
-    top: 0;
-    right: 0;
     width: 35%;
     @include pc {
       right: 50%;

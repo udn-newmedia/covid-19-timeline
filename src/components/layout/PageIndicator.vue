@@ -74,7 +74,7 @@ export default {
   left: 0;
   width: 100%;
   height: 1px;
-  z-index: 5000;
+  z-index: 5010;
 
   .page-indicator__progress {
     position: relative;
