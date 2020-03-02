@@ -2,6 +2,7 @@
   <header
     :class="{
       'header-bar': true,
+      'header-ber--promote': menuActiveFlag,
       'header-bar--hide': !activeFlag,
     }"
   >
@@ -119,9 +120,10 @@ export default {
   left: 0;
   width: 100%;
   height: 50px;
-
   transition: .333s linear;
-
+  &.header-ber--promote {
+    z-index: 5500;
+  }
   &.header-bar--hide {
     transition: .333s linear;
     transform: translateY(-100%);

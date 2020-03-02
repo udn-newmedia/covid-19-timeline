@@ -1,11 +1,27 @@
 <template>
   <div id="app">
     <PageIndicator />
-    <HeaderTypeA />
+    <HeaderTypeA>
+      <a href="https://udn.com/newmedia/2020/covid-19/" target="_blank" rel="noopener">全球疫情地圖</a>
+      <a class="active">台灣防疫決策</a>
+      <a href="https://udn.com/newmedia/2020/covid-19-taiwan/" target="_blank" rel="noopener">圖解病例關係</a>
+    </HeaderTypeA>
     <PageCover />
     <Timeline />
     <PageFooter>
       <FooterEditor>
+        <div>
+          <p>最後更新</p>
+          <p>2020.03.02</p>
+        </div>
+        <div>
+          <p>資料來源</p>
+          <p>中央流行疫情指揮中心、<br>行政院、疾管署、<br>經濟部、教育部</p>
+        </div>
+        <div style="margin-bottom: 24px">
+          <p>照片</p>
+          <p>報系資料照、<br>美聯社、中新社</p>
+        </div>
         <div>
           <p>製作人</p>
           <p>林秀姿、蔡佩蓉</p>

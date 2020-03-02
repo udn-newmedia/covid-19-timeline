@@ -103,7 +103,7 @@ export default {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url('../assets/img/cover/mob.jpg');
+  background-image: url('../assets/img/cover/pad.jpg');
   @include pad {
     background-image: url('../assets/img/cover/pad.jpg');
   }
