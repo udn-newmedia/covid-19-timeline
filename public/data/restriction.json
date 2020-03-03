@@ -546,17 +546,6 @@
       ],
       "active": false
     },
-    "2/17": {
-      "world": null,
-      "tw": [
-        {
-          "text": "國內第21例、22例，首例死亡白牌司機親人",
-          "image": null,
-          "level": 1
-        }
-      ],
-      "active": false
-    },
     "2/18": {
       "world": [
         {
@@ -625,13 +614,7 @@
           "level": 1
         }
       ],
-      "tw": [
-        {
-          "text": "國內3例感染者痊癒出院，累計5例已出院",
-          "image": null,
-          "level": 1
-        }
-      ],
+      "tw": null,
       "active": false
     },
     "2/24": {
