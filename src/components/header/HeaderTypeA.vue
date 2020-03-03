@@ -14,8 +14,8 @@
           @click="sendGA(formatGA('HeaderUdnLogo'))"
         >
           <a
-            :href="href"
-            target="_self"
+            href="https://udn.com/news/index"
+            target="_blank"
             rel="noopener"
             aria-label="聯logo"
             name="聯logo"

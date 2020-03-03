@@ -30,15 +30,17 @@
       <FooterEditor>
         <div>
           <p>最後更新</p>
-          <p>2020.03.02</p>
+          <p>2020.03.03</p>
         </div>
         <div>
           <p>資料來源</p>
-          <p>中央流行疫情指揮中心、<br>行政院、疾管署、<br>經濟部、教育部</p>
+          <p v-show="this.$store.state.dataType === 'restriction'">中央流行疫情指揮中心、<br>行政院、疾管署、<br>經濟部、教育部</p>
+          <p v-show="this.$store.state.dataType === 'mask'">中央流行疫情指揮中心、<br>疾管署</p>
         </div>
         <div style="margin-bottom: 24px">
           <p>照片</p>
-          <p>報系資料照、<br>美聯社、中新社</p>
+          <p v-show="this.$store.state.dataType === 'restriction'">報系資料照、<br>美聯社、中新社</p>
+          <p v-show="this.$store.state.dataType === 'mask'">報系資料照、<br>健保署提供、<br>取自經濟部臉書</p>
         </div>
         <div>
           <p>製作人</p>

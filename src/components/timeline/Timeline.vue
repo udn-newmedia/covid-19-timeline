@@ -97,7 +97,7 @@ export default {
       if (this.$store.state.dataType === 'mask') {
         return {
           left: '疫情發展',
-          right: '口罩措施'
+          right: '政策措施'
         };
       }
       return { left: null, right: null };

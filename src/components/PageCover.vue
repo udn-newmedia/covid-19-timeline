@@ -107,7 +107,7 @@ export default {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url('../assets/img/cover/pad.jpg');
+  background-image: url('../assets/img/cover/mob.jpg');
   @include pad {
     background-image: url('../assets/img/cover/pad.jpg');
   }
@@ -126,6 +126,10 @@ export default {
   background-color: transparent !important;
   padding: 0 !important;
   transition: width .666s ease-in-out;
+  @include pad {
+    left: 50%;
+    transform: translateX(-50%);
+  }
   @include pc {
     left: 50%;
     transform: translateX(-50%);
