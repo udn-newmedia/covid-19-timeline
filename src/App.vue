@@ -2,9 +2,27 @@
   <div id="app">
     <PageIndicator />
     <HeaderTypeA>
-      <a href="https://udn.com/newmedia/2020/covid-19/" target="_blank" rel="noopener">全球疫情地圖</a>
+      <a
+        href="https://udn.com/newmedia/2020/covid-19/"
+        target="_blank"
+        rel="noopener"
+        aria-label="outlink"
+        name="outlink"
+        @click="sendGA(formatGA('MenuLink_1'))"
+      >
+        全球疫情地圖
+      </a>
       <a class="active">台灣防疫決策</a>
-      <a href="https://udn.com/newmedia/2020/covid-19-taiwan/" target="_blank" rel="noopener">圖解病例關係</a>
+      <a
+        href="https://udn.com/newmedia/2020/covid-19-taiwan/"
+        target="_blank"
+        rel="noopener"
+        aria-label="outlink"
+        name="outlink"
+        @click="sendGA(formatGA('MenuLink_3'))"
+      >
+        圖解病例關係
+      </a>
     </HeaderTypeA>
     <PageCover />
     <Timeline />
@@ -52,6 +70,8 @@
 </template>
 
 <script>
+import { sendGaMethods } from '@/mixins/masterBuilder.js';
+
 import HeaderTypeA from '@/components/header/HeaderTypeA.vue';
 import FooterEditor from '@/components/footer/FooterEditor.vue';
 import FooterFbComment from '@/components/footer/FooterFbComment.vue';
@@ -65,6 +85,7 @@ import Timeline from '@/components/timeline/Timeline.vue';
 
 export default {
   name: 'App',
+  mixins: [sendGaMethods],
   components: {
     HeaderTypeA,
     FooterEditor,

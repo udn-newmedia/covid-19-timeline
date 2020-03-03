@@ -81,7 +81,11 @@ export default {
     handleControllerClick(payload) {
       if (this.$store.state.dataType !== payload) {
         vueScrollTo.scrollTo('#enter-anchor');
-        // this.sendGA(this.formatGA(payload));
+        this.sendGA({
+          category: 'tab',
+          action: 'click',
+          label: payload
+        });
       }
       this.$store.dispatch('changeDataType', payload);
     }

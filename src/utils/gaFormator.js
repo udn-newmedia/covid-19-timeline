@@ -64,11 +64,35 @@ const gaTable = {
     action: 'click',
     label: '新媒體中心_logo'
   },
-  
   FooterLogoVision: {
     category: 'logo',
     action: 'click',
     label: '願景工程_logo'
+  },
+  MenuLink_1: {
+    category: 'hamburger',
+    action: 'click',
+    label: '全球疫情地圖'
+  },
+  MenuLink_2: {
+    category: 'hamburger',
+    action: 'click',
+    label: '台灣防疫決策'
+  },
+  MenuLink_3: {
+    category: 'hamburger',
+    action: 'click',
+    label: '圖解台灣病例'
+  },
+  Tab_1: {
+    category: 'tab',
+    action: 'click',
+    label: '邊境管制'
+  },
+  Tab_2: {
+    category: 'tab',
+    action: 'click',
+    label: '口罩措施'
   },
 }
 

@@ -5,6 +5,7 @@ function resolve (dir) {
 
 module.exports = {
   publicPath: './',
+  productionSourceMap: false,
   chainWebpack: config => {
     config.module.rules.delete('eslint');
     config.resolve.alias
