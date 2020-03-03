@@ -201,19 +201,14 @@
           "text": "WHO證實新冠病毒會人傳人",
           "image": null,
           "level": 3
+        },
+        {
+          "text": "中國大陸湖北省境內13座城市封城",
+          "image": null,
+          "level": 1
         }
       ],
       "tw": [
-        {
-          "text": "國內第2例，居住在武漢來台旅遊的陸客",
-          "image": null,
-          "level": 1
-        },
-        {
-          "text": "國內第3例，武漢台商返台",
-          "image": null,
-          "level": 1
-        },
         {
           "text": "中港澳旅客入境需填「入境健康聲明卡」",
           "image": null,
@@ -253,11 +248,6 @@
       "world": null,
       "tw": [
         {
-          "text": "國內第4例，具武漢旅遊史",
-          "image": null,
-          "level": 1
-        },
-        {
           "text": "全面禁止湖北省陸人來台",
           "image": null,
           "level": 3
@@ -282,11 +272,6 @@
           "text": "大陸地區人民來台觀光活動暫緩受理，已發入台許可證者推遲來台",
           "image": null,
           "level": 1
-        },
-        {
-          "text": "國內第5例，武漢工作返台台商",
-          "image": null,
-          "level": 1
         }
       ],
       "active": false
@@ -299,18 +284,7 @@
           "level": 3
         }
       ],
-      "tw": [
-        {
-          "text": "國內第6、7例，皆居住在武漢來台旅遊的陸客",
-          "image": null,
-          "level": 1
-        },
-        {
-          "text": "國內第8例，第5例台商之親人",
-          "image": null,
-          "level": 1
-        }
-      ],
+      "tw": null,
       "active": false
     },
     "1/30": {
@@ -326,13 +300,7 @@
           "level": 1
         }
       ],
-      "tw": [
-        {
-          "text": "國內第9例，武漢台商的親人",
-          "image": null,
-          "level": 1
-        }
-      ],
+      "tw": null,
       "active": false
     },
     "1/31": {
@@ -348,13 +316,7 @@
           "level": 1
         }
       ],
-      "tw": [
-        {
-          "text": "國內第10例，第9例的親人，也就是武漢台商",
-          "image": null,
-          "level": 1
-        }
-      ],
+      "tw": null,
       "active": false
     },
     "2/2": {
@@ -393,11 +355,6 @@
     "2/4": {
       "world": null,
       "tw": [
-        {
-          "text": "國內第11例，武漢包機返台台商",
-          "image": null,
-          "level": 1
-        },
         {
           "text": "14天內曾停靠中港澳之郵輪不得靠岸",
           "image": null,
@@ -453,16 +410,6 @@
           "level": 3
         },
         {
-          "text": "國內第12-13例，有武漢工作居住史",
-          "image": null,
-          "level": 1
-        },
-        {
-          "text": "國內第14、15、16例，皆有港澳旅遊史",
-          "image": null,
-          "level": 1
-        },
-        {
           "text": "國內首例確診病患痊癒出院",
           "image": null,
           "level": 1
@@ -513,22 +460,6 @@
         },
         {
           "text": "寶瓶星號128名採檢陰性返家",
-          "image": null,
-          "level": 1
-        },
-        {
-          "text": "國內第17例，是第14、15例同遊歐洲經香港轉機返台的親人",
-          "image": null,
-          "level": 1
-        }
-      ],
-      "active": false
-    },
-    "2/9": {
-      "world": null,
-      "tw": [
-        {
-          "text": "國內第18例，是第14、15例同遊歐洲經香港轉機返台的親人",
           "image": null,
           "level": 1
         }
@@ -599,17 +530,6 @@
       "tw": null,
       "active": false
     },
-    "2/13": {
-      "world": null,
-      "tw": [
-        {
-          "text": "第10例出院",
-          "image": null,
-          "level": 1
-        }
-      ],
-      "active": false
-    },
     "2/15": {
       "world": null,
       "tw": [
@@ -620,22 +540,6 @@
         },
         {
           "text": "日本旅遊疫情升為第一級注意(Watch)",
-          "image": null,
-          "level": 1
-        }
-      ],
-      "active": false
-    },
-    "2/16": {
-      "world": null,
-      "tw": [
-        {
-          "text": "國內第19例，無旅遊史白牌司機確診死亡，為社區感染零星個案",
-          "image": null,
-          "level": 1
-        },
-        {
-          "text": "國內第20例，首例死亡白牌司機親人",
           "image": null,
           "level": 1
         }
@@ -677,18 +581,7 @@
           "level": 1
         }
       ],
-      "tw": [
-        {
-          "text": "國內第23例，首例死亡白牌司機親人",
-          "image": null,
-          "level": 1
-        },
-        {
-          "text": "國內第24例，無旅遊史本土個案，第25、26例為第24例親人",
-          "image": null,
-          "level": 1
-        }
-      ],
+      "tw": null,
       "active": false
     },
     "2/20": {
@@ -734,11 +627,6 @@
       ],
       "tw": [
         {
-          "text": "國內第27、28例，無旅遊史家庭感染",
-          "image": null,
-          "level": 1
-        },
-        {
           "text": "國內3例感染者痊癒出院，累計5例已出院",
           "image": null,
           "level": 1
@@ -753,11 +641,6 @@
           "text": "伊朗、義大利旅遊疫情提升為第一級注意(watch)，韓國提升為第三級警告",
           "image": null,
           "level": 1
-        },
-        {
-          "text": "國內第29、30例，為第27、28例親人家庭感染",
-          "image": null,
-          "level": 1
         }
       ],
       "active": false
@@ -766,23 +649,7 @@
       "world": null,
       "tw": [
         {
-          "text": "國內第31例，為第27-30例親人家庭感染",
-          "image": null,
-          "level": 1
-        },
-        {
           "text": "義大利旅遊疫情提升至第二級警示(Alert)",
-          "image": null,
-          "level": 1
-        }
-      ],
-      "active": false
-    },
-    "2/26": {
-      "world": null,
-      "tw": [
-        {
-          "text": "國內第32例，為第27例的看護",
           "image": null,
           "level": 1
         }
@@ -792,6 +659,11 @@
     "2/27": {
       "world": null,
       "tw": [
+        {
+          "text": "防疫指揮中心升級為一級開設，指揮官為陳時中",
+          "image": null,
+          "level": 3
+        },
         {
           "text": "義大利旅遊疫情升級為第三級警告，旅遊返台需14天居家檢疫",
           "image": null,
@@ -808,24 +680,7 @@
           "level": 1
         }
       ],
-      "tw": [
-        {
-          "text": "國內第33例，為大阪旅遊返國者。第34例無旅遊史國內感染",
-          "image": null,
-          "level": 1
-        }
-      ],
-      "active": false
-    },
-    "2/29": {
-      "world": null,
-      "tw": [
-        {
-          "text": "國內第35-38例，為第34例接觸者。國內第39例，為埃及旅遊返國者",
-          "image": null,
-          "level": 1
-        }
-      ],
+      "tw": null,
       "active": false
     },
     "3/1": {
@@ -838,17 +693,7 @@
       ],
       "tw": [
         {
-          "text": "國內第40例，為鑽石公主號返台旅客",
-          "image": null,
-          "level": 1
-        },
-        {
           "text": "伊朗旅遊疫情升級為第三級警告，旅遊返台需14天居家檢疫",
-          "image": null,
-          "level": 1
-        },
-        {
-          "text": "國內確診個案累計12人解除隔離",
           "image": null,
           "level": 1
         }
