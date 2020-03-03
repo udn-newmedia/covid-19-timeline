@@ -125,7 +125,7 @@ export default {
   margin: 0 auto;
   background-color: transparent !important;
   padding: 0 !important;
-  transition: width .666s ease-in-out;
+  transition: .666s ease-in-out;
   @include pad {
     left: 50%;
     transform: translateX(-50%);
@@ -140,6 +140,10 @@ export default {
   }
   &.page-cover__timeline-controller--shrink {
     width: 65%;
+    @include pad {
+      left: 0;
+      transform: translateX(0);
+    }
     @include pc {
       width: 480px;
       transform: translateX(-360px);

@@ -34,8 +34,8 @@
         </div>
         <div>
           <p>資料來源</p>
-          <p v-show="this.$store.state.dataType === 'restriction'">中央流行疫情指揮中心、<br>行政院、疾管署、<br>經濟部、教育部</p>
-          <p v-show="this.$store.state.dataType === 'mask'">中央流行疫情指揮中心、<br>疾管署</p>
+          <p v-show="this.$store.state.dataType === 'restriction'">中央流行疫情指揮中心、<br>疾管署</p>
+          <p v-show="this.$store.state.dataType === 'mask'">中央流行疫情指揮中心、<br>行政院、疾管署、<br>經濟部、教育部</p>
         </div>
         <div style="margin-bottom: 24px">
           <p>照片</p>

@@ -158,6 +158,8 @@ export default {
   transition: .333s ease-in-out;
   @include pad {
     max-width: 576px;
+    right: 50%;
+    transform: translateX(50%);
   }
   @include pc {
     max-width: 720px;
@@ -168,6 +170,11 @@ export default {
     position: fixed;
     z-index: 5000;
     width: 35%;
+    @include pad {
+      width: 35%;
+      right: 0;
+      transform: translateX(0);
+    }
     @include pc {
       right: 50%;
       width: 240px;
