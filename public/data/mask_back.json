@@ -1,0 +1,312 @@
+{
+  "2020": {
+    "1/21": {
+      "situation": [
+        {
+          "text": "台灣出現新冠病毒感染首例，為武漢台商返台",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },
+    "1/22": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "4500萬副外科口罩釋出",
+          "image": null,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "1/24": {
+      "situation": [
+        {
+          "text": "國內第2例，居住在武漢來台旅遊的陸客",
+          "image": null,
+          "level": 1
+        },
+        {
+          "text": "國內第3例，武漢台商返台",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": [
+        {
+          "text": "禁止口罩出口一個月",
+          "image": true,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "1/26": {
+      "situation": [
+        {
+          "text": "國內第4例，具武漢旅遊史",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },
+    "1/27": {
+      "situation": [
+        {
+          "text": "國內第5例，武漢工作返台台商",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },
+    "1/28": {
+      "situation": [
+        {
+          "text": "國內第6、7例，皆居住在武漢來台旅遊的陸客",
+          "image": null,
+          "level": 1
+        },
+        {
+          "text": "國內第8例，第5例台商之親人",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": [
+        {
+          "text": "健保卡勾稽移民署入境資料，供醫護人員查詢疫區旅遊史",
+          "image": true,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "1/29": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "居家隔離者實施電子監控與警察機關連線",
+          "image": null,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "1/30": {
+      "situation": [
+        {
+          "text": "國內第9例，武漢台商的親人",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },
+    "1/31": {
+      "situation": [
+        {
+          "text": "國內第10例，第9例的親人，也就是武漢台商",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": [
+        {
+          "text": "徵用國內口罩工廠生產一般醫用口罩及外科手術口罩",
+          "image": true,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/2": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "宣布高中以下學校延後開學",
+          "image": true,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/3": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "宣布大專院校決議延後開學，陸生暫緩來台",
+          "image": null,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/4": {
+      "situation": [
+        {
+          "text": "國內第11例，武漢包機返台台商",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },
+    "2/6": {
+      "situation": [
+        {
+          "text": "國內第12-13例，有武漢工作居住史",
+          "image": null,
+          "level": 1
+        },
+        {
+          "text": "國內第14、15、16例，皆有港澳旅遊史",
+          "image": null,
+          "level": 1
+        },
+        {
+          "text": "國內首例確診病患痊癒出院",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": [
+        {
+          "text": "口罩販售實名制上路",
+          "image": true,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/8": {
+      "situation": [
+        {
+          "text": "國內第17例，是第14、15例同遊歐洲經香港轉機返台的親人",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },
+    "2/9": {
+      "situation": [
+        {
+          "text": "國內第18例，是第14、15例同遊歐洲經香港轉機返台的親人",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },    
+    "2/11": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "口罩配送量倍增，平均每日85萬片提高至170萬片。補充各醫院庫存至足夠15天安全準備量以上。",
+          "image": true,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/12": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "口罩禁止出口延長至4月底",
+          "image": null,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/13": {
+      "situation": [
+        {
+          "text": "第10例出院",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },
+    "2/16": {
+      "situation": [
+        {
+          "text": "國內第19例，無旅遊史白牌司機確診死亡，為社區感染零星個案",
+          "image": null,
+          "level": 1
+        },
+        {
+          "text": "國內第20例，首例死亡白牌司機親人",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": [
+        {
+          "text": "新增303家衛生所販售實名制口罩",
+          "image": null,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/19": {
+      "situation": [
+        {
+          "text": "國內第23例，首例死亡白牌司機親人",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "measure": null,
+      "active": false
+    },
+    "2/20": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "因應開學，口罩產能提升，兒童口罩7天可買4片",
+          "image": null,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/25": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "因應開學，高中以下由教育部提供口罩給學校 ",
+          "image": null,
+          "level": 3
+        }
+      ],
+      "active": false
+    },
+    "2/27": {
+      "situation": null,
+      "measure": [
+        {
+          "text": "兒童口罩措施鬆綁",
+          "image": null,
+          "level": 1
+        }
+      ],
+      "active": false
+    }
+  }
+}

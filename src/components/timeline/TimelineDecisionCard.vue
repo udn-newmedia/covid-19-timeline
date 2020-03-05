@@ -17,13 +17,13 @@
         :class="{
           'timeline-decision-card__item': true,
           'timeline-decision-card__item-left': true,
-          'timeline-decision-card__item-left--highlight': item.level === 3,
+          'timeline-decision-card__item-left--highlight': +item.level === 3,
           'timeline-decision-card__item--active': data.active,
         }"
       >
         <p>{{item.text}}</p>
-        <img v-if="item.image"
-          :src="leftImageSrc"
+        <img v-if="item.image === true"
+          :src="selectSrc_2(item.img_mobile, item.img_pc)"
           :alt="item.text"
         >
       </div>
@@ -36,16 +36,16 @@
           'timeline-decision-card__item-right': true,
           'timeline-decision-card__item--restriction': $store.state.dataType === 'restriction',
           'timeline-decision-card__item--mask': $store.state.dataType === 'mask',
-          'timeline-decision-card__item--restriction-highlight-1': item.level === 2 && $store.state.dataType === 'restriction',
-          'timeline-decision-card__item--restriction-highlight-2': item.level === 3 && $store.state.dataType === 'restriction',
-          'timeline-decision-card__item--mask-highlight-1': item.level === 2 && $store.state.dataType === 'mask',
-          'timeline-decision-card__item--mask-highlight-2': item.level === 3 && $store.state.dataType === 'mask',
+          'timeline-decision-card__item--restriction-highlight-1': +item.level === 2 && $store.state.dataType === 'restriction',
+          'timeline-decision-card__item--restriction-highlight-2': +item.level === 3 && $store.state.dataType === 'restriction',
+          'timeline-decision-card__item--mask-highlight-1': +item.level === 2 && $store.state.dataType === 'mask',
+          'timeline-decision-card__item--mask-highlight-2': +item.level === 3 && $store.state.dataType === 'mask',
           'timeline-decision-card__item--active': data.active,
         }"
       >
         <p>{{item.text}}</p>
         <img v-if="item.image"
-          :src="rightImageSrc"
+          :src="selectSrc_2(item.img_mobile, item.img_pc)"
           :alt="item.text"
         >
       </div>
