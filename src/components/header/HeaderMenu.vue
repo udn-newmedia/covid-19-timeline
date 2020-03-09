@@ -19,8 +19,8 @@
   </div>
   <div v-else
     :class="{
-      'header-manu-simplified': true,
-      'header-manu-simplified--active': menuActiveFlag,
+      'header-menu-simplified': true,
+      'header-menu-simplified--active': menuActiveFlag,
     }"
   >
     <div
@@ -144,6 +144,7 @@ export default {
         &.active {
           color: #787878;
           border-bottom: solid 1px #000000;
+          cursor: initial;
         }
       }
     }
@@ -164,11 +165,14 @@ export default {
       width: 35%;
     }
     @include pc {
-    width: 75%;
-  }
+      width: 75%;
+      &:hover {
+        color: #000000;
+      }
+    }
   }
 }
-.header-manu-simplified {
+.header-menu-simplified {
   position: absolute;
   visibility: hidden;
   pointer-events: none;
@@ -193,7 +197,7 @@ export default {
     }
   }
 
-  &.header-manu-simplified--active {
+  &.header-menu-simplified--active {
     visibility: visible;
     pointer-events: auto;
     opacity: 1;
@@ -256,12 +260,16 @@ export default {
       @include pc {
         font-size: 24px;
         margin: 8px 0;
+        &:hover {
+          color: #000000;
+        }
       }
 
       &.active {
         color: #333333;
         opacity: 1;
         border-bottom: solid 1px #000000;
+        cursor: initial;
       }
     }
   }
