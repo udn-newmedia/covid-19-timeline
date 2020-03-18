@@ -23,6 +23,16 @@
       >
         圖解病例關係
       </a>
+      <a
+        href="https://udn.com/newmedia/2020/tribute-covid-19-fighters/"
+        target="_blank"
+        rel="noopener"
+        aria-label="outlink"
+        name="outlink"
+        @click="sendGA(formatGA('MenuLink_4'))"
+      >
+        向防疫英雄致敬
+      </a>
     </HeaderTypeA>
     <PageCover />
     <Timeline />

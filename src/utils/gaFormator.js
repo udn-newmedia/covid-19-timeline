@@ -84,6 +84,11 @@ const gaTable = {
     action: 'click',
     label: '圖解台灣病例'
   },
+  MenuLink_4: {
+    category: 'hamburger',
+    action: 'click',
+    label: '向防疫英雄致敬'
+  },
   Tab_1: {
     category: 'tab',
     action: 'click',
