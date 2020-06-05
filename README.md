@@ -5,16 +5,6 @@
 data:
 1. mask.json -> 防疫措施
 2. restriction.json -> 邊境管制
-
-img:
-timeline/mask/...
-timeline/restriction/...
-
-分別有mob/pc資料夾
-檔名規則: 「左右」 + 「年」 + 「月」 + 「日」
-檔名範例：l_2020_1_7、r_2020_1_23
-
-***note: 一個日期左右各只能放一張圖片
 ```
 
 ## Project setup
