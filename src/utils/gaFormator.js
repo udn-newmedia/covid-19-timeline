@@ -82,12 +82,17 @@ const gaTable = {
   MenuLink_3: {
     category: 'hamburger',
     action: 'click',
-    label: '圖解台灣病例'
+    label: '圖解病例關係'
   },
   MenuLink_4: {
     category: 'hamburger',
     action: 'click',
-    label: '向防疫英雄致敬'
+    label: '致敬防疫英雄'
+  },
+  MenuLink_5: {
+    category: 'hamburger',
+    action: 'click',
+    label: '台灣防疫100天'
   },
   Tab_1: {
     category: 'tab',

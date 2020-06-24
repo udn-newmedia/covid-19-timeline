@@ -31,7 +31,17 @@
         name="outlink"
         @click="sendGA(formatGA('MenuLink_4'))"
       >
-        向防疫英雄致敬
+        致敬防疫英雄
+      </a>
+      <a
+        href="https://udn.com/newmedia/taiwan-keeps-covid-19-at-bay/"
+        target="_blank"
+        rel="noopener"
+        aria-label="outlink"
+        name="outlink"
+        @click="sendGA(formatGA('MenuLink_5'))"
+      >
+        台灣防疫100天
       </a>
     </HeaderTypeA>
     <PageCover />
