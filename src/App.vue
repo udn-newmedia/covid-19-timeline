@@ -49,8 +49,12 @@
     <PageFooter>
       <FooterEditor>
         <div>
-          <p>最後更新</p>
+          <p>上線日期</p>
           <p>2020.03.03</p>
+        </div>
+        <div>
+          <p>最後更新</p>
+          <p>2020.05.02</p>
         </div>
         <div>
           <p>資料來源</p>
